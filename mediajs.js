@@ -40,7 +40,6 @@ const handleClick = async function (e) {
       openSkype("live:.cid.c9f4f23c9e68115f");
       break;
     case "telegram":
-      console.log(`tg://resolve?domain=hot_leads_hot_bot&start=${base}`);
       window.location.href = `tg://resolve?domain=hot_leads_hot_bot&start=${
         getUtmParams().ad
       }-${leadIp.country}`;
